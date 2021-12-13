@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1920, 1080]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="Final" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instructions">
+      <TextComponent name="Instruction_text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="Instruction_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="After a period of time, either a blue or a purple arrow appears either on the left or the right side of the screen. Respond as quickly as possible according to rules below: &amp;#10;&amp;#10;If a purple arrow points to the side of the screen it appears on, press arrow key to that direction. (e.g. purple arrow pointing right on the right side of the screen = press right)&amp;#10;&amp;#10;If a blue arrow points to the middle of the screen, press arrow key to the direction of the arrow's tip. (e.g. blue arrow pointing left on the right side of the screen = press left)&amp;#10;&amp;#10;Do not press anything if neither of the conditions are met.&amp;#10;&amp;#10;Fixation cross marks a beginning of a new trial!&amp;#10;&amp;#10;If you understood press space bar and the experiment will start." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="Instruction_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="Instruction_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Experiment">
+      <TextComponent name="Fixation">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="Fixation" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="30" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="Stimulusarrow">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$imagefilestim" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="Stimulusarrow" valType="code"/>
+        <Param name="opacity" updates="set every repeat" val="clrop" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="set every repeat" val="coord" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="33+onst" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="33+onst+2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <NoiseStimComponent name="Backmask">
+        <Param name="blendmode" updates="constant" val="avg" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="0.15" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="filter" updates="constant" val="None" valType="str"/>
+        <Param name="imageComponent" updates="constant" val="Phase" valType="str"/>
+        <Param name="interpolate" updates="constant" val="nearest" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="Backmask" valType="code"/>
+        <Param name="noiseBW" updates="constant" val="1" valType="num"/>
+        <Param name="noiseBWO" updates="constant" val="30" valType="num"/>
+        <Param name="noiseBaseSf" updates="constant" val="8.0" valType="num"/>
+        <Param name="noiseClip" updates="constant" val="3.0" valType="num"/>
+        <Param name="noiseElementSize" updates="constant" val="0.0625" valType="list"/>
+        <Param name="noiseFilterLower" updates="constant" val="1.0" valType="num"/>
+        <Param name="noiseFilterOrder" updates="constant" val="0.0" valType="num"/>
+        <Param name="noiseFilterUpper" updates="constant" val="8.0" valType="num"/>
+        <Param name="noiseFractalPower" updates="constant" val="0.0" valType="num"/>
+        <Param name="noiseImage" updates="constant" val="None" valType="file"/>
+        <Param name="noiseNewSample" updates="constant" val="None" valType="str"/>
+        <Param name="noiseNewSampleWhen" updates="constant" val="1" valType="num"/>
+        <Param name="noiseOri" updates="constant" val="0.0" valType="num"/>
+        <Param name="noiseType" updates="constant" val="Binary" valType="str"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="phase" updates="constant" val="0.0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="coord" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sf" updates="constant" val="None" valType="num"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="32+onst" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="32+onst+1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="int"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </NoiseStimComponent>
+      <NoiseStimComponent name="Frontmask">
+        <Param name="blendmode" updates="constant" val="avg" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="0.15" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="filter" updates="constant" val="None" valType="str"/>
+        <Param name="imageComponent" updates="constant" val="Phase" valType="str"/>
+        <Param name="interpolate" updates="constant" val="nearest" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="Frontmask" valType="code"/>
+        <Param name="noiseBW" updates="constant" val="1" valType="num"/>
+        <Param name="noiseBWO" updates="constant" val="30" valType="num"/>
+        <Param name="noiseBaseSf" updates="constant" val="8.0" valType="num"/>
+        <Param name="noiseClip" updates="constant" val="3.0" valType="num"/>
+        <Param name="noiseElementSize" updates="constant" val="0.0625" valType="list"/>
+        <Param name="noiseFilterLower" updates="constant" val="1.0" valType="num"/>
+        <Param name="noiseFilterOrder" updates="constant" val="0.0" valType="num"/>
+        <Param name="noiseFilterUpper" updates="constant" val="8.0" valType="num"/>
+        <Param name="noiseFractalPower" updates="constant" val="0.0" valType="num"/>
+        <Param name="noiseImage" updates="constant" val="None" valType="file"/>
+        <Param name="noiseNewSample" updates="constant" val="None" valType="str"/>
+        <Param name="noiseNewSampleWhen" updates="constant" val="1" valType="num"/>
+        <Param name="noiseOri" updates="constant" val="0.0" valType="num"/>
+        <Param name="noiseType" updates="constant" val="Binary" valType="str"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="phase" updates="constant" val="0.0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="coord" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sf" updates="constant" val="None" valType="num"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="30+onst" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="30+onst+1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="int"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </NoiseStimComponent>
+      <ImageComponent name="Primerarrow">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$imagefileprim" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="Primerarrow" valType="code"/>
+        <Param name="opacity" updates="set every repeat" val="primop" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="set every repeat" val="coord" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="31+onst" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="31+onst+1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="Response">
+        <Param name="allowedKeys" updates="constant" val="'left','right'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="$correc" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="Response" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="33+onst" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="33+onst+90" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="Exp_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'trial': 1, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 2, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 3, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 4, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 5, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 6, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 7, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 8, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 9, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 10, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 11, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 12, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 13, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 14, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 15, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 16, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 17, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 18, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 19, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 20, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 21, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 22, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 23, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 24, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 25, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 26, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 27, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 28, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 29, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 30, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 31, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 32, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 33, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 34, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 35, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 36, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 37, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 38, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'short', 'onst': 24}, {'trial': 39, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 40, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'None', 'imagefileprim': None, 'primop': None, 'onstcond': 'long', 'onst': 48}, {'trial': 41, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 42, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 43, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 44, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 45, 'coord': (0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 46, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 47, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 48, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 49, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 50, 'coord': (-0.5, 0), 'imagefilestim': 'rightpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightblue.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 51, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 52, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 53, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 54, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 55, 'coord': (0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 56, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 57, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 58, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 59, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 60, 'coord': (-0.5, 0), 'imagefilestim': 'leftpurple.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftblue.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 61, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 62, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 63, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 64, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 65, 'coord': (0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 66, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 67, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 68, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 69, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 70, 'coord': (-0.5, 0), 'imagefilestim': 'rightblue.png', 'clrop': 0.15, 'correc': 'right', 'primcond': 'Oppcol', 'imagefileprim': 'rightpurple.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 71, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 72, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 73, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 74, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 75, 'coord': (0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'left', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 76, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 77, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 78, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'short', 'onst': 24}, {'trial': 79, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}, {'trial': 80, 'coord': (-0.5, 0), 'imagefilestim': 'leftblue.png', 'clrop': 0.15, 'correc': 'None', 'primcond': 'Oppcol', 'imagefileprim': 'leftpurple.png', 'primop': 0.15, 'onstcond': 'long', 'onst': 48}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Conditions_Truefinal.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="Exp_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Experiment"/>
+    <LoopTerminator name="Exp_loop"/>
+  </Flow>
+</PsychoPy2experiment>
